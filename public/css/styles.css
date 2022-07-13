@@ -283,7 +283,7 @@ article div.main-article {
 */
 
 
-@media (min-width: 361px){
+@media (min-width: 420px){
     .description{
         display: block;
     }
@@ -324,7 +324,7 @@ article div.main-article {
     }
 }
 
-@media (min-width: 769px){
+@media (min-width: 1024px){
     .products article{
         width: 23%;
     }
@@ -366,7 +366,6 @@ article div.main-article {
         background-color: #0022AA;
         color: #FFF;
     }
-
     .footer_tarjetas:hover i{
         color:#EAC926;
     }
