@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+div.top-header{
+    padding: 5%;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo{
+    width: 50%;
+}
+
+header div.logo{
+    padding: 10px;
+}
+header nav{
+    display: none;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #1259c3;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description {
+    display: none;
+    margin-top: 20px;
+  }
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+body > footer > div > i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+article div.main-article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+  }
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.products article{
+    width: 100%;
+}
+
+.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top-header .logo{
+    width: 50%;
+}
+
+.top-header .form{
+    display: flex;
+    width: 50%;
+    align-self: center;
+}
+
+.input{
+    width: 80%;
+}
+
+.submit{
+    width: 15%;
+}
+
+.div_description{
+    position: absolute;
+    background-color: #fff;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    transition-duration: all 0.5s;
+}
+
+.form_login button{
+    transition-duration: 0.5s;
+}   
+
+.derechos_de_autor{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+/*
+--------------------------------------------------- css de register.html-------------------------------------------------------------------
+*/
+
+.form_register{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.label_desktop{
+    display: none;
+}
+
+.form_categorias_register{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_date_register{
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+--------------------------------------------------- css de register.html-------------------------------------------------------------------
+*/
+
+
+/*
+--------------------------------------------------- css de login.html----------------------------------------------------------------------
+*/
+
+.label_login{
+    display: none;
+}
+
+.form_login{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form_login div input{
+    width: 90%;
+}
+
+/*
+--------------------------------------------------- css de login.html----------------------------------------------------------------------
+*/
+
+
+/*
+--------------------------------------------------- css de register.html-------------------------------------------------------------------
+*/
+
+.input_register{
+    width: 90%;
+    align-self: center;
+}
+
+/*
+--------------------------------------------------- css de register.html-------------------------------------------------------------------
+*/
+
+
+@media (min-width: 361px){
+    .description{
+        display: block;
+    }
+    header nav{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .products article{
+        width: 48%;
+    }
+    .top-header .logo{
+        width: 30%;
+    }
+    
+    .top-header .form{
+        width: 30%;
+    }
+    .top-header .center{
+        align-self: center;
+        width: 30%;
+    }
+    header nav{
+        display: flex;
+    }
+    nav .principal{
+        width: 35%;
+        display: flex;
+        justify-content: space-around;
+        align-items: self-end;
+        margin-right: 20%;
+    }
+    nav .secundario{
+        justify-content: space-around;
+        display: flex;
+        width: 30%;
+    }
+}
+
+@media (min-width: 769px){
+    .products article{
+        width: 23%;
+    }
+    nav .principal{
+        width: 35%;
+        display: flex;
+        justify-content: space-around;
+        align-items: self-end;
+        margin-right: 30%;
+    }
+    nav .secundario{
+        justify-content: space-around;
+        display: flex;
+        width: 30%;
+    }
+    footer{
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer_tarjetas{
+        width: 30%;
+    }
+}
+
+@media (hover :hover){
+    .products article:hover .div_description{
+        opacity: 1;
+        box-shadow: 0px 10px 10px rgb(100, 100, 100);
+    }
+    .products article:hover .fa-truck{
+        transform: rotate(-90deg);
+        transition: transform 0.5s ease; 
+    }
+    .products article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .form_login button:hover {
+        background-color: #0022AA;
+        color: #FFF;
+    }
+
+    .footer_tarjetas:hover i{
+        color:#EAC926;
+    }
+}
